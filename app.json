@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "JogoDaVelha",
+    "name": "Jogo da Velha",
     "slug": "JogoDaVelha",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logoA.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logoA.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,13 +18,26 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.professoraguiar.tictactoe",
+      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logoA.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logoA.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "670aaa5d-0334-4438-bbbb-9be419070a2a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/670aaa5d-0334-4438-bbbb-9be419070a2a"
     }
   }
 }
